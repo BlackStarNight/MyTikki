@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="368.0" style="-fx-background-radius: 10;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TicTacToe.GameTypesController">
+   <children>
+      <AnchorPane prefHeight="102.0" prefWidth="368.0" style="-fx-background-color: indigo; -fx-background-radius: 5;">
+         <children>
+            <Text layoutX="106.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game types">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button fx:id="SingleGameButton" layoutX="61.0" layoutY="122.0" mnemonicParsing="false" style="-fx-background-color: orange; -fx-border-color: silver; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 7;" text="Game with another player(on one PC)" />
+      <Button fx:id="GameBotButton" layoutX="135.0" layoutY="226.0" mnemonicParsing="false" style="-fx-background-color: orange; -fx-border-color: silver; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 7;" text="Game with Bot" />
+      <Button fx:id="TournementGameButton" layoutX="141.0" layoutY="283.0" mnemonicParsing="false" style="-fx-background-color: orange; -fx-border-color: silver; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 7;" text="Tournement" />
+      <Button fx:id="OnlineGameButton" layoutX="72.0" layoutY="174.0" mnemonicParsing="false" style="-fx-background-color: orange; -fx-border-color: silver; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 7;" text="Game with another player(online)" />
+      <Button fx:id="ReturnButton" layoutX="156.0" layoutY="334.0" mnemonicParsing="false" style="-fx-background-color: orange; -fx-border-color: silver; -fx-border-width: 2; -fx-border-radius: 5; -fx-background-radius: 7;" text="Return" />
+   </children>
+</AnchorPane>

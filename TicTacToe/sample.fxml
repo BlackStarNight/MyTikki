@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<GridPane alignment="center" hgap="10" prefHeight="338.0" prefWidth="308.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TicTacToe.Controller">
+   <columnConstraints>
+      <ColumnConstraints maxWidth="309.5999633789063" minWidth="299.9999877929688" prefWidth="303.20000000000005" />
+      <ColumnConstraints maxWidth="15.20001220703125" minWidth="5.60003662109375" prefWidth="12.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="338.0" prefWidth="331.0" style="-fx-background-color: #4B0082; -fx-background-radius: 7;">
+         <children>
+            <Text layoutX="108.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic Tac Toe">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="-1.0" layoutY="91.0" prefHeight="246.0" prefWidth="316.0" style="-fx-background-color: white;">
+               <children>
+                  <Button fx:id="startButton" layoutX="138.0" layoutY="32.0" mnemonicParsing="false" style="-fx-background-color: #D2691E; -fx-background-radius: 7; -fx-border-color: silver; -fx-border-width: 1; -fx-border-radius: 5;" text="Start">
+                     <font>
+                        <Font name="Bodoni MT" size="15.0" />
+                     </font></Button>
+                  <Button fx:id="statisticsButton" layoutX="119.0" layoutY="87.0" mnemonicParsing="false" style="-fx-background-color: #D2691E; -fx-background-radius: 7; -fx-border-color: silver; -fx-border-width: 1; -fx-border-radius: 5;" text="Statistics">
+                     <font>
+                        <Font name="Bodoni MT" size="17.0" />
+                     </font></Button>
+                  <Button fx:id="exitButton" layoutX="134.0" layoutY="202.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0" style="-fx-background-color: #D2691E; -fx-background-radius: 7; -fx-border-color: silver; -fx-border-width: 1; -fx-border-radius: 5;" text="Exit">
+                     <font>
+                        <Font name="Bodoni MT Black" size="13.0" />
+                     </font></Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
